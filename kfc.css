@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600;700&family=Rubik:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(14, 54, 19);
+    
+}
+
+nav{
+    width:100%;
+    /* background-color: white; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:1rem;
+    
+}
+
+a{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    text-decoration:none;
+    padding: 0px 12px;
+    color: white;
+}
+
+a:hover{
+    color:black;
+}
+
+.main{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.left,.right{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    padding:2rem 2rem;
+}
+
+.right{
+    padding-right: 5rem;
+}
+
+.oderbtn{
+    width:6rem;
+    height: 2rem;
+    padding:0.4rem;
+    border-radius: 18px;
+    font-family: 'Rubik', sans-serif;
+    font-family: 700;
+    cursor: pointer;
+}
+
+.oderbtn:hover{
+  background-color: black;
+  color:white;
+}
+
+.main .left h1{
+    line-height:1.5;
+    font-size: 4rem;
+    color:white;
+    font-family: 'Roboto Slab', serif;
+}
+
+span{
+    color:rgb(14, 235, 7)
+}
+
+.main .left .font p{
+    margin-bottom: 1rem;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.socialmediabtn{
+    padding: 0rem 2rem;
+    margin-top: -3rem;
+    cursor: pointer;
+}
+
+.socialmediabtn i{
+    font-size: 1.2rem;
+    padding:0rem 0.4rem;
+    color:white;
+}
+
+.socialmediabtn i:hover{
+    color:black;
+}
+
+.right .btnitem .btn{
+    width: 2rem;
+    height: 2rem;
+    margin: 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.right .btnitem .btn:hover{
+   background-color: black;
+   color:white;
+   border-radius: 2rem;
+}
